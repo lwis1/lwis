@@ -77,18 +77,23 @@ h4 {
 }
 .card-p {
   background-color: rgba(214, 84, 156, 0.883);
-  color:rgb(48, 2, 21);
+  color:rgb(109, 26, 60);
   text-align: center;
   font-style: italic;
   margin-bottom: 30px;
   transition: transform 1s;
 }
+.card-tittle
 .card-p:hover {
   -ms-transform: scale(1.1); 
   -webkit-transform: scale(1.1); 
   transform: scale(1.1); 
 }
+strong{
+  color: #007BF0;
+}
 .card-body {
+  color: aquamarine;
   height: 100%;
   width: 100%;
   background-color: rgba(14, 1, 7, 0.883);
@@ -106,7 +111,7 @@ h4 {
   text-align: center;
 }
 footer {
-  background-image: url("https://media.istockphoto.com/vectors/rock-band-silhouette-on-stage-vector-id886153238?k=20&m=886153238&s=170667a&w=0&h=Jv4-1q6UdI5KM5NArtlWE8DIGwXUSvD28oF3iiGlF8Y=");
+  background-image: url(footer.jpg);
   background-attachment: fixed;
   background-size: 100% 50%;
   
