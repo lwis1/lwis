@@ -23,7 +23,7 @@ const Classical = () => {
         <>
         <Meta />
         <Link to='/' className='btn btn-link'>Go Back</Link>
-        <h2 style={{borderRadius:"30px",boxShadow: "12px 12px 2px 1px rgba(0, 0, 255, .2)"}}> Acoustic guitars for you</h2><br />
+        <h2 style={{borderRadius:"30px",boxShadow: "12px 12px 2px 1px rgba(0, 0, 255, .2)"}}> Classic guitars for you</h2><br />
         {
         loading ? 
         (<Loader></Loader>) 

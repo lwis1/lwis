@@ -132,7 +132,7 @@ const ProfileScreen = ({ location, history }) => {
                 <th style={{backgroundColor:"silver" }}><i class="fas fa-clock"> date</i></th>
                 <th style={{backgroundColor:"white" }}><i class="fas fa-calculator"> tot</i></th>
                 <th style={{backgroundColor:"silver" }}><i class="fas fa-search-dollar"></i></th>
-                <th style={{backgroundColor:"white" }}><i class="fas fa-luggage-cart"> </i></th>
+                <th style={{backgroundColor:"white" }}><i class="fas fa-luggage-cart">delevred</i></th>
                 <th style={{backgroundColor:"silver"}}>
                   <i className="fas fa-calendar-week"> Details</i>
                 </th>

@@ -56,7 +56,7 @@ const Sidebar = () => {
                 <Nav.Link href="/products/category/basses">Basses</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="/products/category/classical">Classical</Nav.Link>
+                <Nav.Link href="/products/category/classical">Classic</Nav.Link>
                 </Nav.Item>
                 <Nav.Item style={{borderRadius:'20px',color:'yellow'}}>
                 <Nav.Link href="/products/category/electric">Electric</Nav.Link>

@@ -93,7 +93,7 @@ const ProductEditScreen = ({ match, history }) => {
             <Link to='/admin/productlist' className='btn btn-link my-3'>
                 Go Back
             </Link>
-            <FormContainer>
+            <FormContainer style={{backgroundColor:"white"}}>
             <div style={{backgroundColor:"white",boxShadow: "12px 12px 2px 1px rgba(0, 0, 255, .2)",borderRadius: "30px"}}>
             <h2 style={{borderRadius: "30px"}}>Edit Product</h2>
             <Row>
@@ -107,7 +107,7 @@ const ProductEditScreen = ({ match, history }) => {
             ) : (
                 <Form onSubmit={submitHandler}>
                     <Form.Group controlId='name'>
-                        <Form.Label style={{ display: "flex", justifyContent: "center", fontSize:"1.2rem",color:"orangered",textDecoration: "underline"}}>Name :</Form.Label>
+                        <Form.Label style={{ color:"rgb(48, 2, 21)", fontSize:"1.2rem",padding:"5px"}}>Name :</Form.Label>
                         <Form.Control
                             type='name'
                             placeholder='Enter name'
@@ -117,7 +117,7 @@ const ProductEditScreen = ({ match, history }) => {
                     </Form.Group>
                     <br></br>
                     <Form.Group controlId='price'>
-                        <Form.Label style={{ display: "flex", justifyContent: "center", fontSize:"1.2rem",color:"orangered",textDecoration: "underline"}}>Price :</Form.Label>
+                        <Form.Label style={{ color:"rgb(48, 2, 21)", fontSize:"1.2rem",padding:"5px"}}>Price :</Form.Label>
                         <Form.Control
                             type='number'
                             placeholder='Enter price'
@@ -127,7 +127,7 @@ const ProductEditScreen = ({ match, history }) => {
                     </Form.Group>
                     <br></br>
                     <Form.Group controlId='image'>
-                        <Form.Label style={{ display: "flex", justifyContent: "center", fontSize:"1.2rem",color:"orangered",textDecoration: "underline"}}>Image :</Form.Label>
+                        <Form.Label style={{ color:"rgb(48, 2, 21)", fontSize:"1.2rem",padding:"5px"}}>Image :</Form.Label>
                         <Form.Control
                             type='text'
                             placeholder='Enter image url'
@@ -139,7 +139,7 @@ const ProductEditScreen = ({ match, history }) => {
                     </Form.Group>
                     <br></br>
                     <Form.Group controlId='brand'>
-                        <Form.Label style={{ display: "flex", justifyContent: "center", fontSize:"1.2rem",color:"orangered",textDecoration: "underline"}}>Brand :</Form.Label>
+                        <Form.Label style={{ color:"rgb(48, 2, 21)", fontSize:"1.2rem",padding:"5px"}}>Brand :</Form.Label>
                         <Form.Control
                             type='text'
                             placeholder='Enter brand'
@@ -149,7 +149,7 @@ const ProductEditScreen = ({ match, history }) => {
                     </Form.Group>
                     <br></br>
                     <Form.Group controlId='countInStock'>
-                        <Form.Label style={{ display: "flex", justifyContent: "center", fontSize:"1.2rem",color:"orangered",textDecoration: "underline"}}>Count In Stock :</Form.Label>
+                        <Form.Label style={{ color:"rgb(48, 2, 21)", fontSize:"1.2rem",padding:"5px"}}>Count In Stock :</Form.Label>
                         <Form.Control
                             type='number'
                             size={"sm"}
@@ -161,7 +161,7 @@ const ProductEditScreen = ({ match, history }) => {
                     </Form.Group>
                     <br></br>
                     <Form.Group controlId='category'>
-                        <Form.Label style={{ display: "flex", justifyContent: "center", fontSize:"1.2rem",color:"orangered",textDecoration: "underline"}}>Category :</Form.Label>
+                        <Form.Label style={{ color:"rgb(48, 2, 21)", fontSize:"1.2rem",padding:"5px"}}>Category :</Form.Label>
                         <Form.Control
                             as='select'
                             value={category}
@@ -170,7 +170,7 @@ const ProductEditScreen = ({ match, history }) => {
                         <option value='accessoir'>Accessoir</option>
                         <option value='acoustic'>Acoustic</option>
                         <option value='basses'>Basses</option>
-                        <option value='classical'>Classical</option>
+                        <option value='classic'>Classic</option>
                         <option value='forbiginner'>For succesful Learning</option>
                         <option value='electric'>Electric</option>
                         <option value='lefthanded'>Left Handed</option>
@@ -180,7 +180,7 @@ const ProductEditScreen = ({ match, history }) => {
                     </Form.Group>
                     <br></br>
                     <Form.Group controlId='description'>
-                        <Form.Label style={{ display: "flex", justifyContent: "center", fontSize:"1.2rem",color:"orangered",textDecoration: "underline"}}>Description :</Form.Label>
+                        <Form.Label style={{ color:"rgb(48, 2, 21)",padding:"5px", fontSize:"1.2rem"}}>Description :</Form.Label>
                         <Form.Control
                             type='text'
                             as='textarea' row='12'

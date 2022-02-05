@@ -4,10 +4,11 @@ import "react-image-gallery/styles/css/image-gallery.css";
 const AboutCarousel = () => {
     const images = [
       {
-        original: "00.jpg",
-        thumbnail: "00.jpg",
+        original: "000.jpg",
+        thumbnail: "000.jpg",
         description: ""
       },
+      
       {
         original: "0.jpg",
         thumbnail: "0.jpg",
@@ -86,6 +87,11 @@ const AboutCarousel = () => {
         original: "15.jpg",
         thumbnail: "15.jpg",
         originalHeight :"100%"
+      },
+      {
+        original: "00.jpg",
+        thumbnail: "00.jpg",
+        description: ""
       },
     ];
 

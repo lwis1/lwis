@@ -57,7 +57,7 @@ const UserEditScreen = ({ match, history }) => {
             {loading ? <Loader /> : error ? <Message variant='danger'>{error}</Message> : (
                 <Form onSubmit={submitHandler}>
                 <Form.Group controlId='name'>
-                    <Form.Label style={{ display: "flex", justifyContent: "center", fontSize:"1.2rem",color:"orangered",textDecoration: "underline"}}>Name</Form.Label>
+                    <Form.Label style={{ color:"rgb(48, 2, 21)", fontSize:"1.2rem",padding:"5px"}}>Name</Form.Label>
                     <Form.Control
                         type='name'
                         placeholder='Enter name'
@@ -67,7 +67,7 @@ const UserEditScreen = ({ match, history }) => {
                     </Form.Group>
 
                 <Form.Group controlId='email'>
-                    <Form.Label style={{ display: "flex", justifyContent: "center", fontSize:"1.2rem",color:"orangered",textDecoration: "underline"}}>Email Address</Form.Label>
+                    <Form.Label style={{ color:"rgb(48, 2, 21)",padding:"5px", fontSize:"1.2rem"}}>Email Address</Form.Label>
                     <Form.Control
                         type='email'
                         placeholder='Enter email'
@@ -78,7 +78,7 @@ const UserEditScreen = ({ match, history }) => {
 
                 <br></br>
 
-                <Form.Group controlId='isadmin' style={{ display: "flex", justifyContent: "center", fontSize:"1.2rem",color:"orangered",textDecoration: "underline"}}>
+                <Form.Group controlId='isadmin' style={{ color:"rgb(48, 2, 21)",padding:"5px", fontSize:"1.2rem"}}>
                     <Form.Check
                         type='checkbox'
                         label='Is Admin'
