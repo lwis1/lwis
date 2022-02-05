@@ -77,23 +77,18 @@ h4 {
 }
 .card-p {
   background-color: rgba(214, 84, 156, 0.883);
-  color:rgb(109, 26, 60);
+  color:rgb(48, 2, 21);
   text-align: center;
   font-style: italic;
   margin-bottom: 30px;
   transition: transform 1s;
 }
-.card-tittle
 .card-p:hover {
   -ms-transform: scale(1.1); 
   -webkit-transform: scale(1.1); 
   transform: scale(1.1); 
 }
-strong{
-  color: #007BF0;
-}
 .card-body {
-  color: aquamarine;
   height: 100%;
   width: 100%;
   background-color: rgba(14, 1, 7, 0.883);
@@ -105,6 +100,7 @@ strong{
 .card-body:hover {
   opacity:2;
 }
+
 .navbar-brand {
   font-family: "lobster", cursive;
   text-shadow: 4px 4px 8px orange;
